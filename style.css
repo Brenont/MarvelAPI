@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+.flex {
+  display: flex;
+}
+.card-group {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  /* width: 450px; */
+  height: 340px;
+  margin: 5px;
+  border: 1px solid black;
+  align-items: center;
+  flex-direction: column;
+}
+.card img{
+  height: calc(100% - 35px);
+  width: auto;
+}
+.card h2{
+  height: 25px;
+  width: calc(100% - 10px);
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid black;
+}
